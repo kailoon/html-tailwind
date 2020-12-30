@@ -3,10 +3,13 @@
 
 ## Usage
 
-**Run**
+
+
+**Installation**
 ```
 gh repo clone kailoon/html-tailwind
 cd html-tailwind
+npm install
 ```
 
 **Build**
