@@ -8,7 +8,10 @@
 		"production": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o assets/css/styles.css",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": ["react","tailwindcss"],
+	"keywords": [
+		"react",
+		"tailwindcss"
+	],
 	"author": "kailoon",
 	"license": "ISC",
 	"devDependencies": {
