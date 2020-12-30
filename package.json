@@ -1,0 +1,22 @@
+{
+	"name": "tail-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss assets/css/tailwind.css -o assets/css/styles.css",
+		"production": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o assets/css/styles.css",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": ["react","tailwindcss"],
+	"author": "kailoon",
+	"license": "ISC",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"tailwindcss": "^2.0.2"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.1.0",
+		"postcss-cli": "^8.3.1"
+	}
+}
